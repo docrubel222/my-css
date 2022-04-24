@@ -1,0 +1,430 @@
+/* Basic CSS Start */
+
+::before, ::after, *{margin: 0; padding: 0; box-sizing: border-box; font-family: Roboto;}
+a{text-decoration: none; display: inline-block;}
+a, button{transition: all .2s ease;}
+ul{list-style: none;}
+.d-flex{display: flex;}
+.wrapper{width: 100%;}
+.container{width: 1170px; margin: 0 auto;}
+.col-1{width: 10%;}
+.col-2{width: 20%;}
+.col-3{width: 30%;}
+.col-4{width: 40%;}
+.col-5{width: 50%;}
+.col-6{width: 60%;}
+.col-7{width: 70%;}
+.col-8{width: 80%;}
+.col-9{width: 90%;}
+.col-10{width: 100%;}
+.img-fixed{width: 100%; height: auto;}
+
+/* Basic CSS End */
+
+/* Footer Area Start */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0px;
+    background: #fff;
+    align-items: center;
+}
+.logo-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 130px;
+    height: auto;
+}
+.logo-area-info{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}
+.logo-area-info a{
+    color: #0e1724;
+}
+.logo-area-info a:hover{
+    color: #139ff0;
+}
+.user-area{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-area a{
+    color: #0e1724;
+}
+.user-area a.post-project{
+    padding: 10px;
+    background: #F20191;
+    font-weight: bold;
+    color: #fff;
+}
+.user-area a.post-project:hover{
+    background: #FA5F9B;
+}
+
+/* Nav Area Start */
+
+.nav-wrapper{
+    background: #0E1724;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li a{
+    color: #fff;
+    padding: 15px;
+    font-size: 14px;
+}
+.nav ul li a:hover{
+    background: #323A45;
+}
+.slider{
+    position: relative;
+    z-index: -1;
+}
+.slider video{
+    width: 100%;
+    height: 100%;
+}
+.hero{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 100px;
+}
+.hero h1{
+    font-size: 48px;
+    width: 43%;
+    color: #fff;
+}
+.hero p{
+    font-size: 20px;
+    color: #fff;
+    margin: 20px 0px;
+    width: 46%;
+    line-height: 40px;
+}
+.btn{
+    margin-top: 26px;
+}
+.btn button{
+    padding: 14px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.btn button:first-child{
+    background: #F20191;
+    border: 1px solid #F20191;
+    outline: none;
+}
+.btn button:first-child:hover{
+    background: #FA5F9B;
+    border: 1px solid #FA5F9B;
+    outline: none;
+}
+.btn button:last-child{
+    background: linear-gradient(to top, rgba(255,255,255,.2), rgba(0,0,0,.1));
+    border: 1px solid #fff;
+    outline: none;
+}
+.btn button:last-child:hover{
+    background: rgba(255,255,255,.2);
+    border: 1px solid #fff;
+    outline: none;
+}
+
+/* Nav Area End */
+
+
+/* Footer Area End */
+
+/* Used by area start */
+
+.used-by{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+.used-by img{
+    width: 7%;
+    height: auto;
+}
+
+/* Used by area end */
+
+/* Need something done Start */
+
+.need-head h1{
+    font-size: 39px;
+    padding: 30px 0px;
+    color: #0E1724;
+}
+.need-item-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 50px;
+}
+.need-item{
+    width: 20%;
+}
+.n-i-top{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+.n-i-top img{
+    width: 20%;
+    height: auto;
+}
+.n-i-top h2{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #0e1724;
+}
+.n-i-bottom{
+    padding: 15px 0;
+}
+.n-i-bottom p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* Need something done End */
+
+/* Make it Real with Freelancer Start */
+.freelancer{
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 50px;
+}
+.f-heading h1{
+    font-size: 39px;
+    padding: 20px 0;
+    color: #0e1724;
+}
+.f-heading p{
+    font-size: 20px;
+    padding: 10px 0px 50px;
+}
+.f-i-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.f-item{
+    width: 24%;
+    margin-bottom: 30px;
+}
+.f-i-img-wrapper{
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.f-i-img{
+    width: 100%;
+    height: 210px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all .2s ease;
+}
+.f-i-img:hover{
+    transform: scale(1.2);
+}
+.f-i-img a.item-img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.discover-more{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.discover-more a.shadow-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.f-i-img:hover .discover-more a div.shadow{
+    opacity: 1;
+}
+.discover-more a div.shadow{
+    width: 100%;
+    height: 210px;
+    background: #19202d99;
+    opacity: 0;
+}
+.discover-more a.discover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 3px solid #fff;
+    width: 60%;
+    display: none;
+}
+.f-i-img:hover .discover-more a.discover{
+    display: block;
+}
+.discover-more a.discover:hover{
+    background: rgba(255,255,255,.2);
+}
+
+.f-i-heading{
+    padding: 25px 0;
+}
+.f-i-heading h2{
+    font-size: 20px;
+}
+.f-button{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.f-button a{
+    display: inline-block;
+    padding: 15px 35px;
+    background: #F20191;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+.f-button a:hover{
+    background: #FA5F9B;
+}
+
+/* Make it Real with Freelancer End */
+
+/* Get work done in over 1800 Start */
+.get-work-head h1{
+    color: #0e1724;
+    font-size: 39px;
+    padding: 30px 0;
+}
+.project-item{
+    padding: 50px 0;
+}
+.project-item ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.project-item ul li{
+    width: 14%;
+}
+.project-item ul li a{
+    display: flex;
+    align-items: center;
+}
+.project-item ul li a img{
+    width: 27px;
+    height: auto;
+    margin-right: 15px;
+}
+.project-item ul li a p{
+    font-size: 12px;
+    color: #0e1724;
+}
+.project-item ul li a p:hover{
+    text-decoration: underline #007FED;
+    
+}
+/* Get work done in over 1800 End */
+
+/* Freelancer API & Enterprise Start */
+.my-section{
+    display: flex;
+}
+.left-bg{
+    background: url(https://www.f-cdn.com/assets/main/en/assets/home/api-enterprise/api-upsell-v3.jpg?image-optimizer=force&width=965) center/cover;
+}
+.right-bg{
+    background: url(https://www.f-cdn.com/assets/main/en/assets/home/api-enterprise/enterprise-upsell-v3.jpg?image-optimizer=force&width=965) center/cover;
+}
+.common-bg{
+    width: 50%;
+    height: 600px;
+}
+.my-section-wrapper{
+    position: relative;
+}
+.my-section-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+.common-m{
+    color: #fff;
+    width: 50%;
+    text-align: left;
+}
+.common-m p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.common-m h2{
+    font-size: 26px;
+}
+.common-m h1{
+    font-size: 48px;
+    padding: 20px 0;
+}
+.m-s-left h1{
+    width: 90%;
+}
+.m-s-left p{
+    width: 80%;
+}
+.m-s-right{
+    padding-left: 100px;
+}
+.common-m .f-button{
+    text-align: left;
+}
+
+/* Freelancer API & Enterprise End */
+
+/* Footer Start */
+.footer-wrapper{
+    /* background: #161E2C; */
+}
+.footer-top ul li svg{
+    fill: #f7f7f7;
+    width: 30px;
+    height: 30px;
+}
+ul.social li ul li a i{
+    font-size: 20px;
+    font-family: "Font Awesome 6 Brands";
+}
+/* Footer End */
